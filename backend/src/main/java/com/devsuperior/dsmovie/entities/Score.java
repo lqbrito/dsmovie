@@ -12,9 +12,7 @@ public class Score {
 	private ScorePK id = new ScorePK();
 	private Double value;
 	
-	public Score() {
-		
-	}
+	public Score() {}
 
 	public ScorePK getId() {
 		return id;
@@ -36,7 +34,7 @@ public class Score {
 		id.setMovie(movie);
 	}
 	
-	public void serUser(User user) {
+	public void setUser(User user) {
 		id.setUser(user);
 	}
 }

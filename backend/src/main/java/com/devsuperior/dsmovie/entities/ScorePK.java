@@ -22,9 +22,7 @@ public class ScorePK implements Serializable {
 	@JoinColumn(name="user_id")
 	private User user;
 	
-	public ScorePK() {
-		
-	}
+	public ScorePK() {}
 
 	public Movie getMovie() {
 		return movie;
